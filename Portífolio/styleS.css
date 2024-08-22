@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body{
+    background: rgb(0, 0, 0);
+    font-family: 'Nunito', sans-serif
+}
+.logo > img{
+    width: 200px;
+
+}
+.cabecalho{
+    text-align: center;
+}
+.cabecalho > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px;
+}
+.cabecalho > a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid transparent ;
+    transition: border-bottom 3s, color 0.3s;
+}
